@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic|Montserrat:700,400|Open+Sans:400,700);
 
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
 .field label,
 .home-page-title,
 .page-title,
@@ -23,10 +28,14 @@
 }
 
 .btn {
-    font-size: 16px !important;
+    font-size: 14px !important;
     letter-spacing: 1px;
     font-weight: normal !important;
     text-transform: uppercase !important;
+}
+
+.btn-large {
+    padding: 1.275em 1.5em !important;   
 }
 
 .field {
@@ -69,18 +78,6 @@
     margin-left: 170px;   
 }
 
-/* No border radius */
-input[type=text],
-input[type=email],
-input[type=password],
-.btn,
-.breadcrumbs_wrap ul li.first,
-.breadcrumbs_wrap ul li.last,
-#habla_window_div.olrk-fixed-bottom .habla_panel_border, 
-#habla_window_div.olrk-fixed-bottom #habla_topbar_div {
-	border-radius: 0;
-}
-
 .capacity_name {
     text-transform: none;   
     text-align: center;
@@ -99,13 +96,6 @@ input[type=password],
 .boxes_wrap .box.active .capacity_icon span,
 .boxes_wrap .box:hover .capacity_icon span {
     border-color: rgb(255,255,255) !important;   
-}
-
-/* No box shadow */
-.boxes_wrap .box,
-.breadcrumbs_wrap ul li,
-.inner_content_wrap {
-    box-shadow: none !important;   
 }
 
 @media (max-width: 600px) {
