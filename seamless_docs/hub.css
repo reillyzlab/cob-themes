@@ -39,13 +39,13 @@ form.odoform fieldset.fieldset p {
 }
 
 .module_actions .action_button.primary {
-  background-color: #288be4;   
+  background-color: #378EA5;   
 }
 
 .action_button, .btn, .btn-primary {
   border-radius: 0 !important;
   border: none;
-  background: #288be4;
+  background: #378EA5;
   text-transform: uppercase !important;
   letter-spacing: 1px;
   font-size: 14px !important;
