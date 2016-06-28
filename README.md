@@ -5,3 +5,4 @@ Occassionally we need to provide vendors with a CSS file that brings their site/
 Currently, we have themes for: 
 
  * Open Counter
+ * Seamless Docs
