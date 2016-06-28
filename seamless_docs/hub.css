@@ -1,0 +1,60 @@
+form.odoform fieldset.section.fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  font-family: 'Montserrat', arial, sans-serif;
+}
+
+div[class*="item control-group"] > label[class*="control-label span2"],
+form.odoform .inline_group_item label {
+  font-family: "Montserrat",sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.21667rem;
+  margin: 0rem 0rem 0.54167rem 0rem;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+form.odoform .inline_group_item label {
+  color: #929292;
+  margin-top: 0.5rem;
+}
+
+form.odoform textarea, form.odoform select, form.odoform input[type="text"], form.odoform input[type="password"], form.odoform input[type="datetime"], form.odoform input[type="datetime-local"], form.odoform input[type="date"], form.odoform input[type="month"], form.odoform input[type="time"], form.odoform input[type="week"], form.odoform input[type="number"], form.odoform input[type="email"], form.odoform input[type="url"], form.odoform input[type="search"], form.odoform input[type="tel"], form.odoform input[type="color"], form.odoform .uneditable-input {
+  color: #091f2f;
+  border: 3px solid;
+  padding: 5px 15px;
+  height: 65px;
+  font-size: 18px;
+  font-family: Lora, serif;
+}
+
+form.odoform fieldset.fieldset p {
+  font-family: Lora, serif;
+  font-size: 2.08333333333em;
+  line-height: 1.92 !important;
+  font-style: italic;
+  color: #091F2F;
+}
+
+.module_actions .action_button.primary {
+  background-color: #288be4;   
+}
+
+.action_button, .btn, .btn-primary {
+  border-radius: 0 !important;
+  border: none;
+  background: #288be4;
+  text-transform: uppercase !important;
+  letter-spacing: 1px;
+  font-size: 14px !important;
+  text-shadow: none;
+  font-family: "Montserrat",sans-serif;
+  box-shadow: none !important;
+}
+
+.action_button:hover, .btn-primary:hover {
+  background-color: #fb4d42 !important;
+}
+                     
