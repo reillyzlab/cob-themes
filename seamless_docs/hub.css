@@ -1,3 +1,7 @@
+.document-content-area--inner-content {
+  overflow: hidden;
+}
+
 form.odoform fieldset.section.fieldset {
   padding-left: 0;
   padding-right: 0;
