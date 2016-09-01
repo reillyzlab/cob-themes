@@ -1,0 +1,69 @@
+ @import 'https://fonts.googleapis.com/css?family=Lora|Montserrat';
+
+  a:link, a:focus, a:visited {
+    color: #288be4;
+  }
+
+  a:hover {
+    color: #fb4d42;
+  }
+  
+  body {
+    font-family: Lora, serif;
+    color: #091f2f;
+  }
+
+ .pg.yl .eu_h, .pg.yl .eu_co, .pg.yl .hr {
+   border-color: #091f2f;
+   border-width: 5px;
+ }
+
+  .eu_h {
+    font-family: Monserrat, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+  }
+
+  .pg.yl .eu_h  {
+    color: #fb4d42;
+  }
+
+  .eu_h i {
+    display: none;
+  }
+
+  .eu_co {
+    line-height: 1.9;
+  }
+
+  .bh img {
+    height: 32px;
+    padding-top: 10px;
+  }
+
+  .btn {
+     background-color: #288be4;
+     border-color: #288be4;
+     font-size: 14px;
+     font-family: Montserrat, sans-serif;
+     text-transform: uppercase;
+     border-radius: 0;
+     padding: 10px 20px;
+     height: auto;
+  }
+
+  .btn:hover {
+    border-color: #fb4d42;
+    background-color: #fb4d42;
+    color: #fff;
+  }
+
+  .eu_co.fo {
+    border-radius: 0;
+  }
+
+   .s_img, .eu_co.st {
+    visibility: hidden;
+  }
