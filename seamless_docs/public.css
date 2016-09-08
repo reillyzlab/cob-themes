@@ -36,8 +36,8 @@ form.odoform textarea, form.odoform select, form.odoform input[type="text"], for
 
 form.odoform fieldset.fieldset p {
   font-family: Lora, serif;
-  font-size: 2.08333333333em;
-  line-height: 1.92 !important;
+  font-size: 1.5em;
+  line-height: 1.6 !important;
   font-style: italic;
   color: #091F2F;
 }
@@ -60,5 +60,20 @@ form.odoform fieldset.fieldset p {
 
 .action_button:hover, .btn-primary:hover {
   background-color: #fb4d42 !important;
+}
+
+.control-label, .inline_group_item label {
+  font-family: 'Montserrat', arial, sans-serif;
+  text-transform: uppercase;
+  color: #091f2f;
+}
+
+.clear-signature {
+  background-color: #f3f3f3 !important;   
+  color: #091f2f !important;
+}
+
+.clear-signature:hover {
+  color: #fff !important;   
 }
                      
