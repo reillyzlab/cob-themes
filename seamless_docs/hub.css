@@ -47,6 +47,15 @@ form.odoform fieldset.fieldset p {
   color: #D2D2D2;
 }
 
+a {
+  color: #378EA5;
+}
+
+a:hover {
+  color: #fb4d42;
+  text-decoration: none;
+}
+
 .module_actions .action_button.primary {
   background-color: #378EA5;   
 }
