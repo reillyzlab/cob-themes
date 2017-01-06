@@ -67,3 +67,18 @@ form.odoform fieldset.fieldset p {
   background-color: #fb4d42 !important;
 }
                      
+.control-label, .inline_group_item label {
+  font-family: &#39;Montserrat&#39;, arial, sans-serif;
+  text-transform: uppercase;
+  color: #091f2f;
+}
+
+.clear-signature {
+  background-color: #f3f3f3 !important;   
+  color: #091f2f !important;
+}
+
+.clear-signature:hover {
+  background-color: #378EA5 !important;   
+  color: #fff !important;   
+}
