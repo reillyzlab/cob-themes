@@ -2,49 +2,80 @@
   overflow: hidden;
 }
 
-form.odoform fieldset.section.fieldset {
-  padding-left: 0;
-  padding-right: 0;
-  font-family: Lora, serif;
-  font-weight: 300;
-  font-size: 1.125rem;
-  line-height: 2.4375rem;
-  color: #58585B;
-}
-
 div[class*="item control-group"] > label[class*="control-label span2"],
 form.odoform .inline_group_item label {
-  font-family: "Montserrat",sans-serif;
+  color: #061622;
+  font-family: Montserrat,sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 0.21667rem;
   margin: 0rem 0rem 0.54167rem 0rem;
   letter-spacing: 0.0645rem;
+}
+
+form.odoform div.item {
+  font-family: Lora, serif;
+  font-weight: 300;
+  color: #58585B;
+  font-size: 1.125rem;
+  line-height: 2.4375rem;
+}
+
+form.odoform fieldset.fieldset h2 {
+  border-bottom: 0.125rem solid #061622
   color: #061622;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+}
+
+form.odoform fieldset.section.fieldset h6 {
+  color: #58585B;
+  font-family: Lora, serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 2.4375rem;
+}
+
+
+form.odoform fieldset.section.fieldset p {
+  font-family: Lora, serif;
+  font-size: 1rem;
+  line-height: 1.92rem !important;
+  color: #58585B;
+  text-decoration: italic;
+}
+
+form.odoform .inline_group_item {
+  font-weight: 300;
+  color: #061622;
+  margin-top: 0.65rem;
 }
 
 form.odoform .inline_group_item label {
   font-weight: 300;
   color: #061622;
-  margin-top: 0.5rem;
+  margin-top: 0.65rem;
+}
+
+form.odoform .option_label {
+  color: #58585B;
+  font-family: Lora, serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  height: 4.0625rem;
 }
 
 form.odoform textarea, form.odoform select, form.odoform input[type="text"], form.odoform input[type="password"], form.odoform input[type="datetime"], form.odoform input[type="datetime-local"], form.odoform input[type="date"], form.odoform input[type="month"], form.odoform input[type="time"], form.odoform input[type="week"], form.odoform input[type="number"], form.odoform input[type="email"], form.odoform input[type="url"], form.odoform input[type="search"], form.odoform input[type="tel"], form.odoform input[type="color"], form.odoform .uneditable-input {
+  border: 0.1875rem solid;
   color: #091f2f;
-  border: 3px solid;
-  padding: 5px 15px;
-  height: 65px;
-  font-size: 18px;
   font-family: Lora, serif;
-}
-
-form.odoform fieldset.fieldset p {
-  font-family: Lora, serif;
-  font-size: 2.08333333333em;
-  line-height: 1.92 !important;
-  font-style: italic;
-  color: #D2D2D2;
+  font-size: 1.125rem;
+  font-weight: 300;
+  height: 4.0625rem;
+  padding: 0.3125rem 0.9375rem;
 }
 
 .module_actions .action_button.primary {
@@ -52,25 +83,28 @@ form.odoform fieldset.fieldset p {
 }
 
 .action_button, .btn, .btn-primary {
+  background: #288be4;
   border-radius: 0 !important;
   border: none;
-  background: #288be4;
-  text-transform: uppercase !important;
-  letter-spacing: 1px;
-  font-size: 14px !important;
-  text-shadow: none;
-  font-family: "Montserrat",sans-serif;
   box-shadow: none !important;
+  font-family: Montserrat,sans-serif;
+  font-size: 0.875rem !important;
+  letter-spacing: 0.0625rem;
+  text-shadow: none;
+  text-transform: uppercase !important;
 }
 
 .action_button:hover, .btn-primary:hover {
   background-color: #fb4d42 !important;
 }
 
-.control-label, .inline_group_item label {
-  font-family: 'Montserrat', arial, sans-serif;
-  text-transform: uppercase;
-  color: #091f2f;
+a {
+  color: #288be4;
+}
+
+a:hover {
+  color: #fb4d42;
+  text-decoration: none;
 }
 
 .clear-signature {
@@ -79,6 +113,12 @@ form.odoform fieldset.fieldset p {
 }
 
 .clear-signature:hover {
+  background-color: #288be4 !important;  
   color: #fff !important;   
 }
-                     
+
+.control-label, .inline_group_item label {
+  color: #091f2f;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
